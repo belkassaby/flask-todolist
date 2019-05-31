@@ -5,8 +5,7 @@ import requests
 
 class RoutesTest(BaseTestCase):
     """
-    A class to test the user endpoints. It uses the LDAP mock
-    server and mock entry with a test user
+    A class to test the app routes
     """
 
     def test_login(self):
