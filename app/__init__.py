@@ -12,5 +12,3 @@ migrate = Migrate(app, db)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 # toolbar = DebugToolbarExtension(app)
-
-from app import routes, models

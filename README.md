@@ -24,7 +24,7 @@ where `venv` is the folder name of the virtual environment.
 * Then activate the virtual environment
 
 ```
-source /venv/bin/activate
+source venv/bin/activate
 ```
 The command line prompt will then look like
 ```
@@ -33,6 +33,6 @@ The command line prompt will then look like
 
 * Finally install the requirements
 ```
-pip install
+pip install -r requirements.txt
 ```
 
